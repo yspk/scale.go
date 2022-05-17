@@ -45,13 +45,13 @@ func (e *ExtrinsicDecoder) generateHash() string {
 		return ""
 	}
 	var extrinsicData []byte
-	if e.ExtrinsicLength > 0 {
-		extrinsicData = e.Data.Data
-	} else {
-		extrinsicLengthType := scaleType.CompactU32{}
-		extrinsicLengthType.Encode(len(e.Data.Data))
-		extrinsicData = append(extrinsicLengthType.Data.Data[:], e.Data.Data[:]...)
-	}
+	//if e.ExtrinsicLength > 0 {
+	extrinsicData = e.Data.Data
+	//} else {
+	//	extrinsicLengthType := scaleType.CompactU32{}
+	//	extrinsicLengthType.Encode(len(e.Data.Data))
+	//	extrinsicData = append(extrinsicLengthType.Data.Data[:], e.Data.Data[:]...)
+	//}
 	checksum, _ := blake2b.New(32, []byte{})
 	_, _ = checksum.Write(extrinsicData)
 	h := checksum.Sum(nil)
