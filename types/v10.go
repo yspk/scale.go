@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	"github.com/huandu/xstrings"
-	"github.com/itering/scale.go/utiles"
+	"github.com/yspk/scale.go/utiles"
 )
 
 type MetadataV10Decoder struct {

@@ -6,8 +6,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/itering/scale.go/source"
-	"github.com/itering/scale.go/utiles"
+	"github.com/yspk/scale.go/source"
+	"github.com/yspk/scale.go/utiles"
 )
 
 type PortableType struct {

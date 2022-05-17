@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/huandu/xstrings"
-	"github.com/itering/scale.go/utiles"
-	"github.com/itering/scale.go/utiles/crypto/keccak"
+	"github.com/yspk/scale.go/utiles"
+	"github.com/yspk/scale.go/utiles/crypto/keccak"
 )
 
 // {

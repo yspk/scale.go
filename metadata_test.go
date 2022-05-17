@@ -5,10 +5,10 @@ import (
 	"io/ioutil"
 	"testing"
 
-	scalecodec "github.com/itering/scale.go"
-	"github.com/itering/scale.go/source"
-	"github.com/itering/scale.go/types"
-	"github.com/itering/scale.go/utiles"
+	scalecodec "github.com/yspk/scale.go"
+	"github.com/yspk/scale.go/source"
+	"github.com/yspk/scale.go/types"
+	"github.com/yspk/scale.go/utiles"
 )
 
 const (

@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/itering/scale.go/source"
-	"github.com/itering/scale.go/utiles"
+	"github.com/yspk/scale.go/source"
+	"github.com/yspk/scale.go/utiles"
 )
 
 func newStruct(names, typeString []string) *TypeMapping {

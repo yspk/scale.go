@@ -6,10 +6,10 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/itering/scale.go"
-	"github.com/itering/scale.go/source"
-	"github.com/itering/scale.go/types"
-	"github.com/itering/scale.go/utiles"
+	"github.com/yspk/scale.go"
+	"github.com/yspk/scale.go/source"
+	"github.com/yspk/scale.go/types"
+	"github.com/yspk/scale.go/utiles"
 )
 
 func TestExtrinsicDecoder_Init(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/itering/scale.go/utiles"
+	"github.com/yspk/scale.go/utiles"
 )
 
 var RuntimeCodecType []string

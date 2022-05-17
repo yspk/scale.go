@@ -7,7 +7,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/itering/scale.go/utiles"
+	"github.com/yspk/scale.go/utiles"
 	"github.com/shopspring/decimal"
 )
 
